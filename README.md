@@ -12,7 +12,3 @@ Stock traders mainly use OHLC (Open, High, Low, Close) for prediction.<br>
 Start to transform training and test data in the from of previous day’s that used to predict the next day’s data, following function with step_size = 1. <br>
 And to reshape the data to input for the LSTM model. In this case 2 stacked LSTM layers. to run in a mean squared error (MSE) and training by Adam algorithm. <br>
 
-MSE = 1/n * Σ(actual value - predicted value)²<br>
-Where:  n is the total number of observations<br>
-        Σ denotes the sum of the differences<br>
-        The difference is squared to eliminate any negative values and emphasize larger differences.<br><br>
