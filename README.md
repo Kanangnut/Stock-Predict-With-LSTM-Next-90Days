@@ -12,3 +12,5 @@ Start to transform training and test data in the from of previous day’s that u
 And to reshape the data to input for the LSTM model. In this case 2 stacked LSTM layers. to run in a mean squared error (MSE) and training by Adam algorithm. <br>
 
 ![image](https://github.com/Kanangnut/LSTM-Networks-for-Stock-Price-Prediction-OHLC-Indicator/assets/130201193/18cc2dc8-dadd-4891-a44c-11b1204105a8)
+
+<br>Next step will try to prediction for next 3 months.
