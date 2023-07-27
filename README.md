@@ -14,7 +14,7 @@ And to reshape the data to input for the LSTM model. In this case 2 stacked LSTM
 ![image](https://github.com/Kanangnut/LSTM-Networks-for-Stock-Price-Prediction-OHLC-Indicator/assets/130201193/18cc2dc8-dadd-4891-a44c-11b1204105a8)
 
 
-Finally, we plot the Original OHCL dataset with Forecast OHCL values, the red line show forecast values of the next 90 days.
+Finally, we plot the Original OHCL dataset with Forecast OHCL values, the red line show forecast values of the next 90 days.<br>
 
 ![image](https://github.com/Kanangnut/LSTM-Stock-Price-Prediction-OHLC-Indicator/assets/130201193/bb157479-30de-451b-8412-5544ee4001b5)
 
