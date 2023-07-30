@@ -1,4 +1,4 @@
-<b>Stock Price Prediction of Tesla Inc Stock by Long Short-Term Memory (LSTM)</b><br>
+<b>Stock Price Prediction of Tesla Inc Stock by Long Short-Term Memory (LSTM) for Next 90 days</b><br>
 This project using TSLA stock from 2010 to 2023.
 
 <b>Dataset:</b><br>
