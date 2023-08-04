@@ -2,10 +2,10 @@
 This project using LSTM Recurrent Neural Network for prediction of TSLA stock.
 
 <b>Dataset:</b><br>
-The dataset is taken from yahoo website in CSV format.The dataset consists of Open, High, Low, Close, Adj Close Prices and Valume of Tesla Inc. stocks from 29th Jun 2010 to 19th Junly 2023, using OHLC ave.<br>
+The dataset is taken from yahoo website in CSV format.The dataset consists of Open, High, Low, Close, Adj Close Prices and Valume of Tesla Inc. stocks from 29th Jun 2010 to 19th Junly 2023.<br>
 
 <b>Indicator:</b><br>
-Stock traders mainly use OHLC (Open, High, Low, Close) for prediction.<br>
+Stock traders mainly use OHLC average for prediction.<br>
 
 <b>Processing</b><br>
 Start to transform training and test data in the from of previous day’s that used to predict the next day’s data, following function with step_size = 1.
