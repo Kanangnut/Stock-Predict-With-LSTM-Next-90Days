@@ -7,10 +7,11 @@ The dataset is taken from yahoo website in CSV format.The dataset consists of Op
 <b>Indicator:</b><br>
 Stock traders mainly use OHLC average for prediction.<br>
 
-<b>Processing</b><br>
-Start to transform training and test data in the from of previous day’s that used to predict the next day’s data, following function with step_size = 1.
-And to reshape the data to input for the LSTM model. In this case 2 stacked LSTM layers. to run in a mean squared error (MSE) and training by Adam algorithm. <br>
+<b>Processing and Model</b><br>
+After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days.
 
+
+<b>Model</b><br>
 ![image](https://github.com/Kanangnut/stock-predict-with-LSTM-for-next-3-month/assets/130201193/2490abbf-71c6-4952-9785-f2b1d1cc5c29)
 
 
