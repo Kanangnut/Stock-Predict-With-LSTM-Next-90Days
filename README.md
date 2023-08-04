@@ -8,7 +8,7 @@ The dataset is taken from yahoo website in CSV format.The dataset consists of Op
 Stock traders mainly use OHLC average for prediction.<br>
 
 <b>Processing and Model</b><br>
-After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days. And  input on LSTM model. Following 2 stacked LSTM layers with 1 dense layer, 3 sequences then calculate training and testing Root Mean Square Error (RMSE).
+After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days. And  input on LSTM model. Following 2 stacked LSTM layers with 1 dense layer, 2 sequences then calculate training and testing Root Mean Square Error (RMSE).
 
 <b>Version<b><br>
 Python 3.11.2 and deep learning library Keras and Tensorflow.<br>
