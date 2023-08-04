@@ -8,12 +8,11 @@ The dataset is taken from yahoo website in CSV format.The dataset consists of Op
 Stock traders mainly use OHLC average for prediction.<br>
 
 <b>Processing and Model</b><br>
-After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days.
+After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days. And  input on LSTM model. Following 2 stacked LSTM layers with one dense layer 3 sequences and calculate training and testing Root Mean Square Error (RMSE).
 
 
 <b>Model</b><br>
 ![image](https://github.com/Kanangnut/stock-predict-with-LSTM-for-next-3-month/assets/130201193/2490abbf-71c6-4952-9785-f2b1d1cc5c29)
-
 
 
 Finally, we plot the Original OHCL dataset with Forecast OHCL values, orange line show forecast values of the next 3 month.<br>
