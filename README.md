@@ -13,6 +13,7 @@ After converting dataset into OHLC average, this has been convert into column of
 <b>Version<b><br>
 Python 3.11.2 and deep learning library Keras and Tensorflow.<br>
 
+The trining and testing of OHLC average price:
 ![image](https://github.com/Kanangnut/Stock-predict-with-LSTM-for-next-3-month/assets/130201193/f5b956fc-77d8-4494-9995-6145d6ee8aec)
 
 Finally, we plot the Original OHCL dataset with Forecast OHCL values, orange line show forecast values of the next 3 month.<br>
