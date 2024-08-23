@@ -1,3 +1,55 @@
+
+### Objective
+The project aims to predict Tesla stock prices using an LSTM (Long Short-Term Memory) neural network and forecast future values.
+
+### Steps Involved
+
+1. **Data Preparation:**
+   - **Load Data:** Import Tesla stock price data from a CSV file.
+   - **Preprocess Data:** Reverse the order of the data and reset the index. Calculate the average of Open, High, Low, and Close prices for each day.
+
+2. **Visualization:**
+   - Plot the average OHLC (Open, High, Low, Close) prices to visualize trends.
+
+3. **Data Scaling:**
+   - Scale the average OHLC data using MinMaxScaler to normalize values between 0 and 1.
+
+4. **Train-Test Split:**
+   - Split the data into training (75%) and testing (25%) sets.
+
+5. **Dataset Creation:**
+   - Create sequences of data to use as inputs and outputs for the model with a step size of 1.
+
+6. **Model Building:**
+   - **Model Definition:** Define an LSTM model with 64 and 32 units in two LSTM layers followed by a Dense layer.
+   - **Compile Model:** Use mean squared error as the loss function and Adam optimizer.
+
+7. **Training:**
+   - Train the model on the training data and predict on both the training and testing datasets.
+
+8. **Evaluation:**
+   - Calculate and print the Root Mean Squared Error (RMSE) for both the training and testing sets.
+   - **Training RMSE:** 0.69
+   - **Testing RMSE:** 9.44
+
+9. **Plot Results:**
+   - Plot the original and predicted stock prices for both training and testing sets.
+
+10. **Forecasting:**
+    - Use the trained model to forecast Tesla stock prices for the next 90 days.
+    - Append forecasts to the original data and plot both historical and forecasted values.
+
+### Results
+
+- The model has been trained and tested with a specific architecture and achieved an RMSE of 0.69 for training data and 9.44 for testing data.
+- The forecasted values for the next 90 days are plotted along with the historical data to visualize the predictions.
+
+### Observations
+
+- The model might need further tuning or adjustments to improve forecasting accuracy, particularly given the high testing RMSE compared to the training RMSE.
+
+### Result of the project:
+
 <b>Stock Price Prediction of Tesla Inc Stock for Next 90 days using Long Short-Term Memory (LSTM)</b><br>
 This project using LSTM Recurrent Neural Network for prediction of TSLA stock.
 
@@ -25,3 +77,4 @@ Since difference among of the training and testing RMSE are 0.69 and 9.44 respec
 
 <b>Observation:</b><br>
 The model's overfitting to the training data is a concern, and it may not perform well on unseen data. However, the predictions are reasonably accurate, suggesting that the model can help predict the trend of future stock prices with a relatively high level of confidence. The model's performance could be beneficial for quantitative traders in making informed decisions based on the predicted stock trends. It's essential to keep in mind that the accuracy percentage should be interpreted carefully, as it might not fully represent the overall model performance due to the overfitting issue. You may need to further optimize the model, adjust hyperparameters, and explore additional techniques to improve its generalization and overall accuracy.
+
