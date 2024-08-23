@@ -75,6 +75,40 @@ Finally, we plot the Original OHCL dataset with Forecast OHCL values, orange lin
 <b>Conclusion:</b><br>
 Since difference among of the training and testing RMSE are 0.69 and 9.44 respectively, from the testing result quit higher than the training set. It likely this model badly over fit of the data. However stock price from the last day of data set on 19 July 2023 was 294.0275 and using this model and price of next three days are predicted as 307.7730, 261.8300 and 265.2500 - which were 271.1475, 262.955 and 262.2200 on 20th, 21th and 24th July 2023 according to yFinance. From the result accuracy of OHLC of three days show at 95.79%, so the trend of future values of any time period can be predicted usind this model. In my view, this work can help the quantitative traders to take decisions.
 
-<b>Observation:</b><br>
+<b>My opinion:</b><br>
 The model's overfitting to the training data is a concern, and it may not perform well on unseen data. However, the predictions are reasonably accurate, suggesting that the model can help predict the trend of future stock prices with a relatively high level of confidence. The model's performance could be beneficial for quantitative traders in making informed decisions based on the predicted stock trends. It's essential to keep in mind that the accuracy percentage should be interpreted carefully, as it might not fully represent the overall model performance due to the overfitting issue. You may need to further optimize the model, adjust hyperparameters, and explore additional techniques to improve its generalization and overall accuracy.
+
+In this project, you used the following tools and technologies:
+
+1. **Programming Languages:**
+   - **Python:** For data manipulation, modeling, and visualization.
+
+2. **Libraries and Frameworks:**
+   - **Pandas:** For data manipulation and analysis.
+   - **NumPy:** For numerical operations and data scaling.
+   - **Matplotlib:** For plotting and visualizing data.
+   - **Scikit-Learn:** For data preprocessing (MinMaxScaler) and evaluation metrics.
+   - **Keras/TensorFlow:** For building and training the LSTM model. This includes:
+     - **Sequential Model:** To define the LSTM architecture.
+     - **LSTM Layers:** To capture temporal dependencies in the data.
+     - **Dense Layer:** To output the predicted values.
+     - **Adam Optimizer:** For model optimization.
+     - **Mean Squared Error:** For evaluating the model's performance.
+
+3. **Data Handling:**
+   - **CSV Files:** For reading and storing the historical stock price data.
+
+4. **Machine Learning Techniques:**
+   - **LSTM (Long Short-Term Memory):** A type of recurrent neural network (RNN) used for sequential data prediction.
+
+5. **Data Preprocessing:**
+   - **MinMax Scaling:** To normalize data within a range of 0 to 1.
+
+6. **Evaluation Metrics:**
+   - **Root Mean Squared Error (RMSE):** To measure the accuracy of the model’s predictions.
+
+7. **Visualization:**
+   - **Plots and Graphs:** To visualize the original, predicted, and forecasted stock prices.
+
+These tools and techniques collectively enable data preprocessing, model building, training, evaluation, and visualization for forecasting stock prices.
 
