@@ -63,7 +63,8 @@ Since difference among of the training and testing RMSE are 0.69 and 9.44 respec
 <b>My opinion:</b><br>
 The model's overfitting to the training data is a concern, and it may not perform well on unseen data. However, the predictions are reasonably accurate, suggesting that the model can help predict the trend of future stock prices with a relatively high level of confidence. The model's performance could be beneficial for quantitative traders in making informed decisions based on the predicted stock trends. It's essential to keep in mind that the accuracy percentage should be interpreted carefully, as it might not fully represent the overall model performance due to the overfitting issue. You may need to further optimize the model, adjust hyperparameters, and explore additional techniques to improve its generalization and overall accuracy.
 
-In this project, you used the following tools and technologies:
+
+### In this project, you used the following tools and technologies:
 
 1. **Programming Languages:**
    - **Python:** For data manipulation, modeling, and visualization.
