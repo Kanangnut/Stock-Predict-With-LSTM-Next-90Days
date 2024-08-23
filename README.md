@@ -48,22 +48,7 @@ The project aims to predict Tesla stock prices using an LSTM (Long Short-Term Me
 
 - The model might need further tuning or adjustments to improve forecasting accuracy, particularly given the high testing RMSE compared to the training RMSE.
 
-### Result of the project:
-
-<b>Stock Price Prediction of Tesla Inc Stock for Next 90 days using Long Short-Term Memory (LSTM)</b><br>
-This project using LSTM Recurrent Neural Network for prediction of TSLA stock.
-
-<b>Dataset:</b><br>
-The dataset is taken from yahoo website in CSV format.The dataset consists of Open, High, Low, Close, Adj Close Prices and Valume of Tesla Inc. stocks from 29th Jun 2010 to 19th July 2023.<br>
-
-<b>Indicator:</b><br>
-Stock traders mainly use OHLC average for prediction.<br>
-
-<b>Processing and Model</b><br>
-After converting dataset into OHLC average, this has been convert into column of time series data. Then transform to training and test data in the form of previous days. And  input on LSTM model. Following 2 stacked LSTM layers with 1 dense layer, 4 sequences then calculate training and testing Root Mean Square Error (RMSE).
-
-<b>Version</b><br>
-Python 3.11.2 and deep learning library Keras and Tensorflow.<br>
+### Summary for this project:
 
 The trining and testing of OHLC average price:
 ![image](https://github.com/Kanangnut/Stock-predict-with-LSTM-for-next-3-month/assets/130201193/e2690e71-f4d1-450a-87c9-8dbe13f335ee)
